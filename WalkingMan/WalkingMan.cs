@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+*Created by: Matthew Clement
+*Created on: 08-Oct-2015
+*Created for: Unit #3-07
+*This program displays an animated man walking
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
