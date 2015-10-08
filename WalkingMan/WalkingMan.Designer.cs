@@ -28,20 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.picWalkingMan = new System.Windows.Forms.PictureBox();
             this.btnWalk = new System.Windows.Forms.Button();
+            this.picWalkingMan = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.picWalkingMan)).BeginInit();
             this.SuspendLayout();
-            // 
-            // picWalkingMan
-            // 
-            this.picWalkingMan.Image = global::WalkingMan.Properties.Resources.walk1;
-            this.picWalkingMan.Location = new System.Drawing.Point(52, 12);
-            this.picWalkingMan.Name = "picWalkingMan";
-            this.picWalkingMan.Size = new System.Drawing.Size(180, 180);
-            this.picWalkingMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.picWalkingMan.TabIndex = 0;
-            this.picWalkingMan.TabStop = false;
             // 
             // btnWalk
             // 
@@ -53,11 +43,21 @@
             this.btnWalk.UseVisualStyleBackColor = true;
             this.btnWalk.Click += new System.EventHandler(this.btnWalk_Click);
             // 
+            // picWalkingMan
+            // 
+            this.picWalkingMan.Image = global::WalkingMan.Properties.Resources.walk1;
+            this.picWalkingMan.Location = new System.Drawing.Point(120, 12);
+            this.picWalkingMan.Name = "picWalkingMan";
+            this.picWalkingMan.Size = new System.Drawing.Size(180, 180);
+            this.picWalkingMan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.picWalkingMan.TabIndex = 0;
+            this.picWalkingMan.TabStop = false;
+            // 
             // frmWalkingMan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.ClientSize = new System.Drawing.Size(312, 261);
             this.Controls.Add(this.btnWalk);
             this.Controls.Add(this.picWalkingMan);
             this.Name = "frmWalkingMan";
